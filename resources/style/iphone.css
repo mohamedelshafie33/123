@@ -1,0 +1,94 @@
+
+html{ 
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 200vh;
+    background-color:  rgba(145, 204, 231, 0.4);
+    /* background: linear-gradient(26.5deg , rgb(145, 204, 231), white); */
+    /* padding-top: .5rem; */
+
+}
+
+a{ text-decoration: none;}
+
+
+.navbar{
+    /* background: linear-gradient(.00001deg ,rgba(0,0,0,0.01), rgb(145, 204, 231)100% ); */
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+    background-color:  rgba(145, 204, 231,0.1);
+}
+
+.container { 
+    padding-inline: 4.69rem;/
+    
+}
+/* end-global-css */
+/* start-vavbar */
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.logo {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .container .logo h1 {
+    font-size: 2.5rem;
+    font-weight: 700 ;
+    text-transform: uppercase;
+    
+}
+
+.navbar .container .navbar-menu ul {
+    display: flex;
+    /* align-items: center; */
+    gap: 3rem;
+    /* justify-content: center; */
+}
+
+
+.navbar .container .navbar-menu ul a{ 
+    font-size:1.7rem ;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgba(29,29,29,0.70);
+    height: 2rem;
+    
+    
+}
+
+.navbar .container .navbar-menu ul a.home {
+    color: black;
+}
+ .navbar .container .logo .logo-image {
+    width: 5rem;
+    height: 5rem;
+
+ }
+ .navbar .container .navbar-menu ul a:hover{
+    background: linear-gradient(150deg , rgb(145, 204, 231), white);
+    color: white;
+    border-radius: 50%;
+
+} 
+ 
+ .navbar .container .logo .logo-image img {
+    width: 100%;
+    border-radius: 50%;
+ }

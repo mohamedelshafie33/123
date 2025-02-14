@@ -1,0 +1,239 @@
+/* start-global-css */
+/* @media (max-width:500px){
+.navbar .container {width: calc(100% / 2 - 100px );
+padding-left: 0%;
+}   
+} */
+@media screen and (max-width: 600px) {
+    .navbar .container .logo-image {
+      width: 100%;}
+    }
+
+html{ 
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 200vh;
+    background-color:  rgba(145, 204, 231, 0.4);
+    /* background: linear-gradient(26.5deg , rgb(145, 204, 231), white); */
+    /* padding-top: .5rem; */
+    a{ text-decoration: none;}
+
+}
+
+
+
+.navbar{
+    /* background: linear-gradient(.00001deg ,rgba(0,0,0,0.01), rgb(145, 204, 231)100% ); */
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+    background-color:  rgba(145, 204, 231,0.1);
+}
+
+
+.navbar .container {
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 4.69rem;/   
+}
+/* end-global-css */
+/* start-vavbar */
+
+
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.navbar .container .logo h1 {
+    font-size: 2.5rem;
+    font-weight: 700 ;
+    text-transform: uppercase;
+    
+}
+
+.navbar .container .navbar-menu  {
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    /* justify-content: center; */
+}
+.navbar .container .navbar-menu ul {
+    gap: 3rem;
+    display: flex;
+}
+
+
+.navbar .container .navbar-menu ul a{ 
+
+    font-size:1.7rem ;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgba(29,29,29,0.70);
+    height: 100%;
+    width: fit-content;
+    background:transparent;
+    cursor: pointer;
+    transition-duration: 1s;
+    
+}
+
+.navbar .container .navbar-menu ul a:hover{
+    height: 2rem;
+   background: linear-gradient(150deg , rgb(145, 204, 231), white);
+   color: white !important;
+   border-radius: 20%;
+   border-color: whitesmoke;
+   border-style:solid ;
+
+} 
+
+.navbar .container .navbar-menu ul a.home {
+    color: black;
+}
+ .navbar .container .logo .logo-image {
+    width: 5rem;
+    height: 5rem;
+}
+
+ 
+ .navbar .container .logo .logo-image img {
+    width: 100%;
+    border-radius: 50%;
+ }
+/* end-vavbar */
+/* start-main */
+
+main{
+    min-height: 100vh;
+    /* background-color: red; */
+    padding-top: 4rem;
+}
+
+
+
+
+
+.phone .model { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 50%;
+    background:transparent;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.phone .model span {
+
+    font-size:3rem ;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 1);    
+}
+
+
+
+.phone img {
+    width: 100%;
+    border-radius: 50%;
+ }
+ .phone .model:hover{
+    background: linear-gradient(150deg , rgb(145, 204, 231), white);
+    border-color: whitesmoke;
+    border-style:solid ;
+} 
+
+ .names ul  { 
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 11%;
+    height: fit-content;
+    width: 100%;
+    /* padding-top: 1.5rem; */
+    /* background-color: red; */
+}
+ 
+.names ul .name{ 
+    font-size:3rem ;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 1);
+    
+}
+
+.phone { 
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+    
+    
+
+.buttons ul {
+    
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    gap: 15rem;
+    padding: 5rem;
+    padding-top: 6rem;   
+
+}
+.buttons button{
+    width:fit-content;
+    height: 4rem;
+    color: black;
+    font-size:1.7rem ;
+    font-weight: 400;
+    padding-inline: 4rem;
+    border-radius: 1.5rem;
+    text-transform: capitalize; 
+    background:transparent;
+    cursor: pointer;
+    transition-duration: 1s;
+
+    
+
+}
+
+.buttons button:hover{
+    background: linear-gradient(150deg , rgb(145, 204, 231), white);
+    color: white;
+    border-color: whitesmoke;
+    border-style:solid ;
+    
+} 
+
+
+/* 
+.flexbox-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+} */
+
