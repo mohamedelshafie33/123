@@ -1,13 +1,13 @@
-/* start-global-css */
-/* @media (max-width:500px){
+ /* /* start-global-css  */
+ @media (max-width:500px){
 .navbar .container {width: calc(100% / 2 - 100px );
 padding-left: 0%;
 }   
-} */
+}
 @media screen and (max-width: 600px) {
     .navbar .container .logo-image {
       width: 100%;}
-    }
+    } */
 
 html{ 
     overflow-x: hidden;
@@ -21,32 +21,29 @@ html{
 }
 
 body{
-    min-height: 200vh;
     background-color:  rgba(145, 204, 231, 0.4);
-    /* background: linear-gradient(26.5deg , rgb(145, 204, 231), white); */
-    /* padding-top: .5rem; */
     a{ text-decoration: none;}
-
+    
 }
 
 
 
 .navbar{
-    /* background: linear-gradient(.00001deg ,rgba(0,0,0,0.01), rgb(145, 204, 231)100% ); */
     height: fit-content;
     width: 100%;
     position: fixed;
     background-color:  rgba(145, 204, 231,0.1);
 }
 
-
-.navbar .container {
-    height: 6%;
+ 
+.navbar .container { 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 4.69rem;/   
-}
+    padding-inline: 4.69rem;/ 
+
+} 
+
 /* end-global-css */
 /* start-vavbar */
 
@@ -61,6 +58,8 @@ body{
     font-size: 2.5rem;
     font-weight: 700 ;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
     
 }
 
@@ -69,7 +68,6 @@ body{
     display: flex;
     align-items: center;
     gap: 3rem;
-    /* justify-content: center; */
 }
 .navbar .container .navbar-menu ul {
     gap: 3rem;
@@ -94,9 +92,9 @@ body{
 .navbar .container .navbar-menu ul a:hover{
     height: 2rem;
    background: linear-gradient(150deg , rgb(145, 204, 231), white);
-   color: white !important;
+   color: rgb(16, 19, 21) !important;
    border-radius: 20%;
-   border-color: whitesmoke;
+   border-color: rgb(145, 204, 231);
    border-style:solid ;
 
 } 
@@ -104,24 +102,20 @@ body{
 .navbar .container .navbar-menu ul a.home {
     color: black;
 }
- .navbar .container .logo .logo-image {
-    width: 5rem;
-    height: 5rem;
-}
 
  
- .navbar .container .logo .logo-image img {
-    width: 100%;
+ .navbar .container img {
     border-radius: 50%;
+    width:5rem;
+
  }
 /* end-vavbar */
 /* start-main */
 
-main{
-    min-height: 100vh;
-    /* background-color: red; */
+ main {
     padding-top: 4rem;
 }
+
 
 
 
@@ -169,8 +163,8 @@ main{
     gap: 11%;
     height: fit-content;
     width: 100%;
-    /* padding-top: 1.5rem; */
-    /* background-color: red; */
+    padding-top: 1.5rem;
+
 }
  
 .names ul .name{ 
@@ -225,15 +219,13 @@ main{
     border-style:solid ;
     
 } 
-
-
-/* 
-.flexbox-panel {
+ 
+flexbox-panel {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-} */
+}
 
