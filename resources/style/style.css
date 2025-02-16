@@ -60,6 +60,8 @@ body{
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
 
@@ -90,12 +92,12 @@ body{
 }
 
 .navbar .container .navbar-menu ul a:hover{
-    height: 2rem;
-   background: linear-gradient(150deg , rgb(145, 204, 231), white);
-   color: rgb(16, 19, 21) !important;
-   border-radius: 20%;
-   border-color: rgb(145, 204, 231);
-   border-style:solid ;
+    /* height: 2rem; */
+   /* background: linear-gradient(150deg , rgb(145, 204, 231), white); */
+   color: rgb(119, 203, 242) !important;
+   /* border-radius: 20%; */
+   /* border-color: rgb(145, 204, 231); */
+   /* border-style:solid ; */
 
 } 
 
